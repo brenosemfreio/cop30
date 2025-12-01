@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COP30 – Belém 2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>COP30 – Belém 2025</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#participantes">Participantes</a></li>
+        <li><a href="#cadastro">Cadastros</a></li>
+        <li><a href="#recursos">Recursos</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">Alternar Tema</button>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <article>
+        <h2>O que é a COP30?</h2>
+        <p>
+          A COP30 é a 30ª Conferência das Nações Unidas sobre Mudanças Climáticas.  
+          O evento reúne representantes de quase 200 países para negociar ações globais de mitigação, adaptação e financiamento climático.  
+          Em 2025, a conferência será sediada em Belém — destacando a importância da Amazônia na preservação ambiental e no equilíbrio climático global.
+        </p>
+      </article>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda prevista</h2>
+      <div class="card-grid">
+        <div class="card" data-modal="a1">
+          <h3>Plenárias de Abertura</h3>
+          <p>Abertura oficial com discursos de líderes e autoridades.</p>
+        </div>
+        <div class="card" data-modal="a2">
+          <h3>Negociações Técnicas</h3>
+          <p>Debates sobre mitigação, adaptação e financiamento climático.</p>
+        </div>
+        <div class="card" data-modal="a3">
+          <h3>Eventos Paralelos (Side Events)</h3>
+          <p>Painéis e debates com ONGs, pesquisadores e sociedade civil.</p>
+        </div>
+        <div class="card" data-modal="a4">
+          <h3>Fase de Alto Nível (High-Level Segment)</h3>
+          <p>Declarações e compromissos de chefes de Estado e ministros.</p>
+        </div>
+        <div class="card" data-modal="a5">
+          <h3>Global Stocktake</h3>
+          <p>Avaliação do progresso global em relação aos objetivos climáticos.</p>
+        </div>
+        <div class="card" data-modal="a6">
+          <h3>Encerramento e Decisões Finais</h3>
+          <p>Conclusão das negociações e adoção dos acordos finais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="participantes">
+      <h2>Participantes / Palestrantes</h2>
+
+      <div class="card-grid">
+        <div class="card" data-modal="p1">
+          <img src="img/54088519034_ca31ad3fe8_k-e1731313658744.jpg" alt="Foto oficial de Marina Silva">
+          <h3>Marina Silva</h3>
+          <p>Ambientalista — ex-ministra do Meio Ambiente do Brasil.</p>
+        </div>
+
+        <div class="card" data-modal="p2">
+          <img src="img/09_05_carlos_nobre_foto_academia_brasileira_de_ciencia.webp" alt="Foto oficial de Carlos Nobre">
+          <h3>Carlos Nobre</h3>
+          <p>Climatologista — pesquisador sobre Amazônia e clima global.</p>
+        </div>
+
+        <div class="card" data-modal="p3">
+          <img src="img/R.jpeg" alt="Foto oficial de Paulo Artaxo">
+          <h3>Paulo Artaxo</h3>
+          <p>Físico da USP - especialista em clima, aerossóis e Amazônia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cadastro">
+      <h2>Cadastro</h2>
+      <form id="cadastroForm">
+        <label>Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>UF:</label>
+        <select id="uf" required>
+          <option value="">Selecione...</option>
+      <option>AC</option>
+        <option>AL</option>
+        <option>AP</option>
+        <option>AM</option>
+        <option>BA</option>
+        <option>CE</option>
+        <option>DF</option>
+        <option>ES</option>
+        <option>GO</option>
+        <option>MA</option>
+        <option>MT</option>
+        <option>MS</option>
+        <option>MG</option>
+        <option>PA</option>
+        <option>PB</option>
+        <option>PR</option>
+        <option>PE</option>
+        <option>PI</option>
+        <option>RJ</option>
+        <option>RN</option>
+        <option>RS</option>
+        <option>RO</option>
+        <option>RR</option>
+        <option>SC</option>
+        <option>SP</option>
+        <option>SE</option>
+        <option>TO</option>
+        </select>
+
+        <fieldset>
+          <legend>Área de interesse</legend>
+          <label><input type="checkbox" value="clima"> Clima</label>
+          <label><input type="checkbox" value="energia"> Energia</label>
+          <label><input type="checkbox" value="florestas"> Florestas</label>
+        </fieldset>
+
+        <label>
+          <input type="checkbox" id="lgpd" required>
+          Aceito a LGPD
+        </label>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="recursos">
+      <h2>Recursos oficiais e úteis</h2>
+      <ul>
+        <li><a href="https://unfccc.int" target="_blank">UNFCCC – ONU Clima</a></li>
+        <li><a href="https://ipcc.ch" target="_blank">IPCC – Painel Intergovernamental do Clima</a></li>
+        <li><a href="https://www.gov.br/mma" target="_blank">Ministério do Meio Ambiente (MMA)</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Site educativo sobre a COP30</p>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="modal-close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
