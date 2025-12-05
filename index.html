@@ -1,172 +1,245 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>COP30 – Belém 2025</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COP30 – Belém 2025</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <h1>COP30 – Belém 2025</h1>
-    <nav>
-      <ul>
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#agenda">Agenda</a></li>
-        <li><a href="#participantes">Participantes</a></li>
-        <li><a href="#cadastro">Cadastros</a></li>
-        <li><a href="#recursos">Recursos</a></li>
+<nav class="navbar navbar-expand-lg py-3" style="background:#ffffff;">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <a class="navbar-brand fw-bold" href="#" style="color:#172918;font-size:1.4rem;">COP30 – Belém 2025</a>
+
+    <div class="position-absolute start-50 translate-middle-x">
+      <ul class="navbar-nav gap-4 fw-semibold">
+        <li class="nav-item"><a class="nav-link" href="#inicio" style="color:#172918;">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#agenda" style="color:#172918;">Agenda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#participantes" style="color:#172918;">Participantes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cadastro" style="color:#172918;">Cadastro</a></li>
+        <li class="nav-item"><a class="nav-link" href="#recursos" style="color:#172918;">Recursos</a></li>
       </ul>
-    </nav>
-    <button id="theme-toggle">Alternar Tema</button>
-  </header>
+    </div>
 
-  <main>
-    <section id="inicio">
-      <article>
-        <h2>O que é a COP30?</h2>
-        <p>
-          A COP30 é a 30ª Conferência das Nações Unidas sobre Mudanças Climáticas.  
-          O evento reúne representantes de quase 200 países para negociar ações globais de mitigação, adaptação e financiamento climático.  
-          Em 2025, a conferência será sediada em Belém — destacando a importância da Amazônia na preservação ambiental e no equilíbrio climático global.
-        </p>
-      </article>
-    </section>
+    <div><img src="img/COP30-Brazil.webp" alt="Logo COP30" style="height:50px;"></div>
+  </div>
+</nav>
 
-    <section id="agenda">
-      <h2>Agenda prevista</h2>
-      <div class="card-grid">
-        <div class="card" data-modal="a1">
-          <h3>Plenárias de Abertura</h3>
-          <p>Abertura oficial com discursos de líderes e autoridades.</p>
-        </div>
-        <div class="card" data-modal="a2">
-          <h3>Negociações Técnicas</h3>
-          <p>Debates sobre mitigação, adaptação e financiamento climático.</p>
-        </div>
-        <div class="card" data-modal="a3">
-          <h3>Eventos Paralelos (Side Events)</h3>
-          <p>Painéis e debates com ONGs, pesquisadores e sociedade civil.</p>
-        </div>
-        <div class="card" data-modal="a4">
-          <h3>Fase de Alto Nível (High-Level Segment)</h3>
-          <p>Declarações e compromissos de chefes de Estado e ministros.</p>
-        </div>
-        <div class="card" data-modal="a5">
-          <h3>Global Stocktake</h3>
-          <p>Avaliação do progresso global em relação aos objetivos climáticos.</p>
-        </div>
-        <div class="card" data-modal="a6">
-          <h3>Encerramento e Decisões Finais</h3>
-          <p>Conclusão das negociações e adoção dos acordos finais.</p>
-        </div>
+
+<section id="inicio" class="py-5 bg-white">
+  <div class="container col-lg-10">
+    <h2 class="text-center text-cop fw-bold mb-4">O que é a COP30?</h2>
+    <p class="lead text-cop">
+      A COP30 será a 30ª Conferência...
+    </p>
+
+    <h3 class="fw-bold text-center text-cop mt-5 mb-3">Por que a COP30 será realizada em Belém?</h3>
+    <p class="text-cop">
+      A escolha de Belém, no coração da Amazônia...
+    </p>
+    <p class="text-cop">
+      Trazer a conferência para Belém coloca...
+    </p>
+
+    <h3 class="fw-bold text-center text-cop mt-5 mb-3">O que esperar da COP30?</h3>
+    <p class="text-cop">
+      A COP30 será crucial para definir novas metas...
+    </p>
+
+    <h3 class="fw-bold text-center text-cop mt-5 mb-3">O que o Brasil espera alcançar na COP30?</h3>
+    <p class="text-cop">O Brasil chega à COP30 com o objetivo...</p>
+    <ul>
+      <li>Atrair mais financiamento climático internacional;</li>
+      <li>Reduzir o desmatamento na Amazônia...</li>
+      <li>Ampliar o uso de energias renováveis...</li>
+      <li>Fortalecer o Fundo Amazônia...</li>
+      <li>Liderar acordos entre países tropicais...</li>
+      <li>Impulsionar a bioeconomia amazônica...</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="agenda" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Agenda COP30</h2>
+
+    <div class="calendar">
+      <div class="calendar-header">Novembro 2025</div>
+
+      <div class="calendar-grid">
+        <div class="day-name">Do</div><div class="day-name">Se</div><div class="day-name">Te</div>
+        <div class="day-name">Qu</div><div class="day-name">Qu</div><div class="day-name">Se</div><div class="day-name">Sa</div>
+
+        <div class="day disabled">30</div><div class="day">1</div><div class="day">2</div><div class="day">3</div>
+        <div class="day">4</div><div class="day today">5</div><div class="day">6</div>
+
+        <div class="day">7</div><div class="day">8</div><div class="day">9</div><div class="day">10</div>
+        <div class="day">11</div><div class="day">12</div><div class="day">13</div>
+
+        <div class="day">14</div><div class="day">15</div><div class="day">16</div><div class="day">17</div>
+        <div class="day">18</div><div class="day">19</div><div class="day">20</div>
+
+        <div class="day">21</div><div class="day">22</div><div class="day">23</div>
+        <div class="day event" data-day="24">24<span class="dot"></span></div>
+        <div class="day event" data-day="25">25<span class="dot"></span></div>
+        <div class="day">26</div><div class="day">27</div>
+
+        <div class="day">28</div><div class="day">29</div><div class="day">30</div>
+        <div class="day event" data-day="31">31<span class="dot"></span></div>
+        <div class="day disabled">1</div><div class="day disabled">2</div><div class="day disabled">3</div>
       </div>
-    </section>
-
-    <section id="participantes">
-      <h2>Participantes / Palestrantes</h2>
-
-      <div class="card-grid">
-        <div class="card" data-modal="p1">
-          <img src="img/54088519034_ca31ad3fe8_k-e1731313658744.jpg" alt="Foto oficial de Marina Silva">
-          <h3>Marina Silva</h3>
-          <p>Ambientalista — ex-ministra do Meio Ambiente do Brasil.</p>
-        </div>
-
-        <div class="card" data-modal="p2">
-          <img src="img/09_05_carlos_nobre_foto_academia_brasileira_de_ciencia.webp" alt="Foto oficial de Carlos Nobre">
-          <h3>Carlos Nobre</h3>
-          <p>Climatologista — pesquisador sobre Amazônia e clima global.</p>
-        </div>
-
-        <div class="card" data-modal="p3">
-          <img src="img/R.jpeg" alt="Foto oficial de Paulo Artaxo">
-          <h3>Paulo Artaxo</h3>
-          <p>Físico da USP - especialista em clima, aerossóis e Amazônia.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="cadastro">
-      <h2>Cadastro</h2>
-      <form id="cadastroForm">
-        <label>Nome:</label>
-        <input type="text" id="nome" required>
-
-        <label>Email:</label>
-        <input type="email" id="email" required>
-
-        <label>UF:</label>
-        <select id="uf" required>
-          <option value="">Selecione...</option>
-      <option>AC</option>
-        <option>AL</option>
-        <option>AP</option>
-        <option>AM</option>
-        <option>BA</option>
-        <option>CE</option>
-        <option>DF</option>
-        <option>ES</option>
-        <option>GO</option>
-        <option>MA</option>
-        <option>MT</option>
-        <option>MS</option>
-        <option>MG</option>
-        <option>PA</option>
-        <option>PB</option>
-        <option>PR</option>
-        <option>PE</option>
-        <option>PI</option>
-        <option>RJ</option>
-        <option>RN</option>
-        <option>RS</option>
-        <option>RO</option>
-        <option>RR</option>
-        <option>SC</option>
-        <option>SP</option>
-        <option>SE</option>
-        <option>TO</option>
-        </select>
-
-        <fieldset>
-          <legend>Área de interesse</legend>
-          <label><input type="checkbox" value="clima"> Clima</label>
-          <label><input type="checkbox" value="energia"> Energia</label>
-          <label><input type="checkbox" value="florestas"> Florestas</label>
-        </fieldset>
-
-        <label>
-          <input type="checkbox" id="lgpd" required>
-          Aceito a LGPD
-        </label>
-
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-
-    <section id="recursos">
-      <h2>Recursos oficiais e úteis</h2>
-      <ul>
-        <li><a href="https://unfccc.int" target="_blank">UNFCCC – ONU Clima</a></li>
-        <li><a href="https://ipcc.ch" target="_blank">IPCC – Painel Intergovernamental do Clima</a></li>
-        <li><a href="https://www.gov.br/mma" target="_blank">Ministério do Meio Ambiente (MMA)</a></li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>Site educativo sobre a COP30</p>
-  </footer>
-
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <span id="modal-close">&times;</span>
-      <div id="modal-body"></div>
     </div>
   </div>
+</section>
 
-  <script src="script.js"></script>
+
+<section id="participantes" class="container my-5 text-center">
+  <h2 class="mb-4">Participantes Confirmados</h2>
+  <div class="row justify-content-center g-4">
+    <div class="col-md-4 col-lg-2">
+      <div class="card participante-card shadow-sm" data-bs-toggle="modal" data-bs-target="#modal1">
+        <img src="img/54088519034_ca31ad3fe8_k-e1731313658744.jpg" class="card-img-top">
+        <div class="card-footer bg-dark text-white p-2">Marina Silva</div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card participante-card shadow-sm" data-bs-toggle="modal" data-bs-target="#modal2">
+        <img src="img/R.jpeg" class="card-img-top">
+        <div class="card-footer bg-dark text-white p-2">Paulo Artaxo</div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card participante-card shadow-sm" data-bs-toggle="modal" data-bs-target="#modal3">
+        <img src="img/ana.webp" class="card-img-top">
+        <div class="card-footer bg-dark text-white p-2">Ana Toni</div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card participante-card shadow-sm" data-bs-toggle="modal" data-bs-target="#modal4">
+        <img src="img/09_05_carlos_nobre_foto_academia_brasileira_de_ciencia.webp" class="card-img-top">
+        <div class="card-footer bg-dark text-white p-2">Carlos Nobre</div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-lg-2">
+      <div class="card participante-card shadow-sm" data-bs-toggle="modal" data-bs-target="#modal5">
+        <img src="img/sonia.webp" class="card-img-top">
+        <div class="card-footer bg-dark text-white p-2">Sonia Guajajara</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="cadastro" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Cadastro para Participação</h2>
+    <p class="text-center mb-5">Preencha seus dados para receber novidades.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <form id="cadastroForm" class="p-4 border rounded shadow-sm bg-white">
+          <div class="mb-3"><label class="form-label">Nome completo</label>
+            <input type="text" class="form-control" id="nome" required></div>
+
+          <div class="mb-3"><label class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" required></div>
+
+          <div class="mb-3"><label class="form-label">Estado (UF)</label>
+            <select class="form-select" id="uf" required>
+              <option value="" disabled selected>Selecione</option>
+              <option>AC</option><option>AL</option><option>AP</option><option>AM</option>
+              <option>BA</option><option>CE</option><option>DF</option><option>ES</option>
+              <option>GO</option><option>MA</option><option>MT</option><option>MS</option>
+              <option>MG</option><option>PA</option><option>PB</option><option>PR</option>
+              <option>PE</option><option>PI</option><option>RJ</option><option>RN</option>
+              <option>RS</option><option>RO</option><option>RR</option><option>SC</option>
+              <option>SP</option><option>SE</option><option>TO</option>
+            </select>
+          </div>
+
+          <div class="mb-3"><label class="form-label">Áreas de interesse</label>
+            <div class="form-check"><input class="form-check-input" type="checkbox" value="Clima"><label class="form-check-label">Clima</label></div>
+            <div class="form-check"><input class="form-check-input" type="checkbox" value="Amazônia"><label class="form-check-label">Amazônia</label></div>
+            <div class="form-check"><input class="form-check-input" type="checkbox" value="Energia"><label class="form-check-label">Energia Renovável</label></div>
+            <div class="form-check"><input class="form-check-input" type="checkbox" value="Educação"><label class="form-check-label">Educação Ambiental</label></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="form-check"><input class="form-check-input" type="checkbox" id="lgpd" required>
+              <label class="form-check-label">Autorizo o uso dos meus dados conforme a LGPD.</label>
+            </div>
+          </div>
+
+          <div class="d-grid">
+            <button class="btn btn-success" type="submit" style="background-color:#172918;border:none;">Enviar Cadastro</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="recursos">
+  <h2 class="section-title">Recursos</h2>
+  <div class="recursos-container">
+
+    <div class="recurso-card">
+      <h3>Plano de Ação Climática</h3>
+      <p>Material oficial com diretrizes para redução de CO₂.</p>
+      <a href="#" class="btn">Baixar PDF</a>
+    </div>
+
+    <div class="recurso-card">
+      <h3>Relatórios da COP</h3>
+      <p>Acompanhe os relatórios publicados.</p>
+      <a href="#" class="btn">Acesse</a>
+    </div>
+
+    <div class="recurso-card">
+      <h3>Transmissões Ao Vivo</h3>
+      <p>Assista painéis diretamente de Belém.</p>
+      <a href="#" class="btn">Assistir</a>
+    </div>
+
+    <div class="recurso-card">
+      <h3>Banco de Imagens</h3>
+      <p>Download de fotos e conteúdos.</p>
+      <a href="#" class="btn">Ver imagens</a>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>© 2025 COP30 | Todos os direitos reservados.</p>
+</footer>
+
+
+<div class="modal fade" id="agendaModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5 id="agendaTitle"></h5><button type="button" class="btn-close" data-bs-dismiss="modal"></button></div>
+      <div class="modal-body" id="agendaText"></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal1" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5>Marina Silva</h5></div><div class="modal-body">Ministra do Meio Ambiente do Brasil.</div></div></div></div>
+<div class="modal fade" id="modal2" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5>Paulo Artaxo</h5></div><div class="modal-body">Cientista da USP e membro do IPCC.</div></div></div></div>
+<div class="modal fade" id="modal3" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5>Ana Toni</h5></div><div class="modal-body">Secretária Nacional de Mudança do Clima.</div></div></div></div>
+<div class="modal fade" id="modal4" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5>Carlos Nobre</h5></div><div class="modal-body">Climatologista premiado.</div></div></div></div>
+<div class="modal fade" id="modal5" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5>Sonia Guajajara</h5></div><div class="modal-body">Ministra dos Povos Indígenas.</div></div></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
